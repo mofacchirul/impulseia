@@ -1,5 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import Navbar from '@/components/shared/Navbar'
+import { ThemeProvider } from '@/components/theme-provider'
+import Footer from '@/components/shared/footer'
 
 export const metadata: Metadata = {
   title: 'v0 App',
@@ -14,7 +17,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+        <Navbar />
+       <main className='h-screen'> {children}</main>
+        <Footer />
+        </ThemeProvider>
+        </body>
     </html>
   )
 }

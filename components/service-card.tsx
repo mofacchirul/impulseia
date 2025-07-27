@@ -34,7 +34,7 @@ export default function ServiceCard({ icon, title, description, features }: Serv
       transition={{ duration: 0.5 }}
       whileHover={{ y: -5 }}
     >
-      <Card className="border-zinc-800 bg-zinc-900/50 h-full transition-all duration-300 hover:border-purple-500/50 hover:shadow-lg hover:shadow-purple-500/10">
+      <Card className="border-zinc-800  h-full transition-all duration-300 hover:border-purple-500/50 hover:shadow-lg hover:shadow-purple-500/10">
         <CardHeader className="pb-4">
           <div className="h-14 w-14 rounded-lg bg-purple-500/10 flex items-center justify-center text-purple-500 mb-4">
             {icon}

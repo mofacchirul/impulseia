@@ -8,7 +8,7 @@ import Link from "next/link"
 
 const team = [
   {
-    name: "Alex Morgan",
+    name: "Omar Rayhan Udiin",
     position: "CEO & Founder",
     bio: "With over 15 years of experience in software development and technology leadership.",
     image:
@@ -20,7 +20,7 @@ const team = [
     },
   },
   {
-    name: "Jamie Taylor",
+    name: "Armanul haque",
     position: "CTO",
     bio: "Jamie leads our technical strategy and oversees all development projects.",
     image:
@@ -32,7 +32,7 @@ const team = [
     },
   },
   {
-    name: "Sam Rivera",
+    name: "Mofaccharul Hoque",
     position: "Lead Developer",
     bio: "Sam specializes in full-stack development and has led numerous complex projects.",
     image:
@@ -42,18 +42,18 @@ const team = [
       github: "#",
     },
   },
-  {
-    name: "Jordan Lee",
-    position: "AI Specialist",
-    bio: "Jordan brings deep expertise in machine learning and artificial intelligence.",
-    image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=2761&auto=format&fit=crop&w=400&h=400&crop=faces&fit=crop",
-    social: {
-      twitter: "#",
-      linkedin: "#",
-      github: "#",
-    },
-  },
+  // {
+  //   name: "Jordan Lee",
+  //   position: "AI Specialist",
+  //   bio: "Jordan brings deep expertise in machine learning and artificial intelligence.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=2761&auto=format&fit=crop&w=400&h=400&crop=faces&fit=crop",
+  //   social: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     github: "#",
+  //   },
+  // },
 ]
 
 export default function TeamSection() {
