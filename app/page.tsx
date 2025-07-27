@@ -1,6 +1,4 @@
 "use client"
-
-import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, Bug, BugIcon, CheckCircle, ChevronRight, Code, Database, Globe, Layers, Lock, Smartphone, Zap } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -28,7 +26,6 @@ export default function Home() {
 
       {/* Header */}
       {/* <Navbar></Navbar> */}
-
       <main className="flex-1">
         {/* Hero Section */}
         <HeroSection />
@@ -552,8 +549,6 @@ export default function Home() {
         </section>
       </main>
 
-      {/* Footer */}
-     <Footer />
     </div>
   )
 }
